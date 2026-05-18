@@ -11,24 +11,24 @@
     "prisma:migrate": "prisma migrate dev"
   },
   "dependencies": {
+    "@prisma/client": "5.x",
+    "@tanstack/react-query": "5.x",
+    "clsx": "^1.2.1",
+    "framer-motion": "10.x",
     "next": "15.x",
     "react": "18.x",
     "react-dom": "18.x",
-    "@prisma/client": "5.x",
-    "clsx": "^1.2.1",
-    "framer-motion": "10.x",
-    "zustand": "4.x",
-    "@tanstack/react-query": "5.x",
     "recharts": "2.x",
-    "tailwindcss": "3.4.x"
+    "tailwindcss": "3.4.x",
+    "zustand": "4.x"
   },
   "devDependencies": {
-    "prisma": "5.x",
-    "typescript": "5.x",
-    "postcss": "8.x",
+    "@types/node": "20.x",
+    "@types/react": "18.x",
     "autoprefixer": "10.x",
     "eslint": "8.x",
-    "@types/node": "20.x",
-    "@types/react": "18.x"
+    "postcss": "8.x",
+    "prisma": "5.x",
+    "typescript": "^6.0.3"
   }
 }

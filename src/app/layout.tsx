@@ -1,8 +1,7 @@
-import type { Metadata } from 'next'
 // @ts-ignore: side-effect import for global CSS
 import '../styles/globals.css'
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'ALIGNIQ | Goal Intelligence Operating System',
   description: 'Enterprise-grade AI-powered performance management'
 }
